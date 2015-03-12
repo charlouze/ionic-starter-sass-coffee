@@ -1,0 +1,25 @@
+{
+  "name": "YOUR_APP_NAME",
+  "version": "1.0.0",
+  "description": "YOUR_APP_NAME: An Ionic project",
+  "devDependencies": {
+    "bower": "1.3.x",
+    "coffee-script": "1.9.x",
+    "gulp": "3.8.x",
+    "gulp-coffee": "2.3.x",
+    "gulp-minify-css": "0.3.x",
+    "gulp-ng-classify": "4.0.x",
+    "gulp-plumber": "0.6.x",
+    "gulp-rename": "1.2.x",
+    "gulp-sass": "0.7.x",
+    "gulp-sourcemaps": "1.3.x",
+    "gulp-util": "2.2.x",
+    "ionic": "1.3.x",
+    "shelljs": "0.3.x"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "ionic serve"
+  }
+}

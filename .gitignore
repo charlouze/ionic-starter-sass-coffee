@@ -1,0 +1,16 @@
+# Ignores
+
+# Npm
+npm-debug.log
+
+# Ionic ignore
+node_modules/
+platforms/
+plugins/
+www/lib
+www/css
+www/js
+
+# Jetbrains ignore
+*.iml
+.idea
